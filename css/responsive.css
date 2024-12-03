@@ -1,0 +1,784 @@
+
+
+/* --------------------------1200px----------------------------- */
+@media screen and (max-width: 1200px) {
+
+  .navLinks {
+    display: none;
+  }
+
+}
+
+/* --------------------------991px----------------------------- */
+@media screen and (max-width: 991px) {
+
+  #nav > .container .container-fluid > a {
+    width: 90px;
+    height: 40px;
+  }
+
+  #logoImg {
+    transition: all 0.5s ease-in-out;
+    width: 90px;
+  } 
+
+  .navLinks div a {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+
+  .navIcons a {
+    margin: 0 8px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .offcanvas {
+    width: 260px !important;
+  }
+
+  .container .nav-link {
+    font-size: 12px;
+  }
+
+  .sidenavbtn button {
+    font-size: 10px;
+  }
+
+  .GallaryBanner h5 {
+    letter-spacing: 3px;
+    font-size: 12px;
+  }
+
+  /* ---------------------------banner--------------------------------- */
+  #banner .caption p {
+    font-size: 44px;
+  }
+
+  #banner .caption h1 {
+    font-size: 64px;
+    letter-spacing: 6px;
+  }
+
+  /* ---------------------------welcom------------------------------------ */
+  .welcomContent {
+    position: relative;
+    top: 5%;
+  }
+
+  .welcomContent h3 {
+    font-size: 24px;
+  }
+
+  .welcomContent h2 {
+    font-size: 44px;
+    letter-spacing: 4px;
+  }
+
+  .welcomContent p {
+    padding: 0 18%;
+    margin: 20px 0;
+  }
+
+  .LinkStory a {
+    font-size: 10px;
+  }
+
+  .LinkStory a span {
+    margin-left: 16px;
+    width: 8px;
+    height: 8px;
+  }
+
+  /* ------------------------intro--------------------- */
+  #intro {
+    padding: 100px 0;
+  }
+
+  #intro p {
+    font-size: 26px;
+  }
+
+  #intro h2 {
+    font-size: 44px;
+  }
+
+  /* ----------------------information--------------------------- */
+  #information > .container > .row > .col > .link {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  /* -------------------------our menu-------------------------------------- */
+  #OurMenu p {
+    font-size: 26px;
+  }
+
+  #OurMenu h2 {
+    letter-spacing: 6px;
+    font-size: 36px;
+  }
+
+  .menuphot {
+    margin: 26px auto;
+    gap: 18px;
+    width: 70%;
+  }
+
+  .menuphot .bt {
+    letter-spacing: 6px;
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+  }
+
+  /* -------------------------book-------------------------------- */
+  .bookContent h3 {
+    font-size: 26px;
+  }
+
+  .bookContent h2 {
+    font-size: 44px;
+    letter-spacing: 4px;
+  }
+
+  .bookImg {
+    border-radius: 10px;
+  }
+
+  .btnbook {
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 8px 14px;
+    transition: 0.3s;
+  }
+
+  .form-group label {
+    font-size: 12px;
+  }
+
+  /* -----------------------news------------------------------------ */
+  #news h5 {
+    font-size: 26px;
+  }
+
+  #news h2 {
+    letter-spacing: 7px;
+    font-size: 36px;
+  }
+
+  #news .row > .col > .link {
+    font-size: 16px;
+  }
+
+  #news .row .col p {
+    font-size: 9px;
+  }
+
+  /* --------------------------form-------------------------- */
+  #form label {
+    font-size: 20px;
+  }
+
+  #form .SignUp {
+    border-radius: 7px;
+    width: 220px;
+    height: 34px;
+  }
+
+  #form .submit {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+  /* --------------------FooterBanner------------------------- */
+  #FooterBanner .row .col div h5 {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  #FooterBanner .row .col div p {
+    font-size: 10px;
+  }
+
+  #FooterBanner .row .col > h5 {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  #FooterBanner .row .col > a {
+    font-size: 10px;
+  }
+
+  #FooterBanner .row .col > p {
+    font-size: 10px;
+  }
+
+  #FooterBanner .row .col > span {
+    font-size: 10px;
+    margin: 2.6em 0;
+  }
+
+  #FooterBanner .secondcontent {
+    top: 4.5em !important;
+  }
+
+  /* -------------------------footer--------------------------- */
+  #footer p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  #footer p a {
+    font-size: 12px;
+  }
+
+  #footer p span img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .FooterIcons a {
+    filter: invert(1);
+    margin: 0 8px;
+    width: 12px;
+    height: 12px;
+    text-decoration: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}
+
+/* --------------------------768px----------------------------- */
+@media only screen and (max-width: 768px) {
+
+  .container, .container-sm {
+    max-width: 100%;
+  }
+
+  #logoImg {
+    transition: all 0.5s ease-in-out;
+    width: 80px;
+  }
+
+  .navLinks div a {
+    margin: 0 5px;
+    font-size: 11px;
+  }
+
+  .navIcons a {
+    margin: 0 8px;
+    width: 11px;
+    height: 11px;
+  }
+
+  .offcanvas {
+    width: 260px !important;
+  }
+
+  .container .nav-link {
+    font-size: 11px;
+  }
+
+  .sidenavbtn button {
+    font-size: 9px;
+  }
+
+  .GallaryBanner h5 {
+    letter-spacing: 3px;
+    font-size: 11px;
+  }
+
+    /* ---------------------------banner--------------------------------- */
+    #banner img, svg{
+      height: 30em;
+    }
+
+    .d-none{
+      display: block !important;
+    }
+
+    #banner .caption p {
+      font-size: 40px;
+    }
+
+    #banner .caption h1 {
+      font-size: 56px;
+      letter-spacing: 5px;
+    }
+
+    #banner .caption button {
+      font-size: 8px;
+      padding: 7px 10px;
+      border-radius: 5px;
+    }
+
+    /* ----------------------welcom---------------------------- */
+    #welcom .row{
+      display: grid !important;
+    }
+
+    #welcom .row .col{
+      margin: 10px 0 !important;
+      width: 100%;
+    }
+
+    .welcomContent h3 {
+      font-size: 20px;
+    }
+
+    .welcomContent h2 {
+      font-size: 36px;
+      letter-spacing: 3px;
+    }
+
+    .welcomContent p {
+      font-size: 12px;
+      padding: 0;
+      margin: 16px 0;
+    }
+
+    .LinkStory a {
+      font-size: 8px;
+    }
+
+    .LinkStory a span {
+      margin-left: 14px;
+      width: 6px;
+      height: 6px;
+    }
+
+  /* ----------------------information--------------------------- */
+    #information .row{
+      display: grid !important;
+    }
+
+    #information .row .col p {
+      margin: 7px 0;
+    }
+
+    #information > .container > .row > .col > .link {
+      margin-top: 12px;
+      font-size: 22px;
+      letter-spacing: 5px;
+    }
+
+    #information .row .col p {
+      margin-top: 6px;
+      font-size: 15px;
+    }
+
+    .LinkStory {
+      margin-bottom: 12px;
+    }
+
+    .LinkStory a{
+      font-size: 12px;
+    }
+
+    .LinkStory a span{
+      width: 12px;
+      height: 12px;
+    }
+    
+  /* --------------------our menu-------------------------------- */
+  .menuphot {
+      margin: 30px auto;
+      display: grid;
+      gap: 20px;
+      width: 95%;
+      aspect-ratio: 0.4;
+  }
+  .p01 {
+      grid-area: 1 / 1 / span 2 / span 1;
+  }
+
+  .p02 {
+      grid-area: 1 / 2 / span 2 / span 1;
+  }
+
+  .p03 {
+      grid-area: 3 / 1 / span 1 / span 2;
+  }
+
+  .p04 {
+      grid-area: 4 / 1 / span 2 / span 2;
+  }
+
+  .p05 {
+      grid-area: 6 / 1 / span 2 / span 2;
+  }
+
+  .p06 {
+      grid-area: 8 / 1 / span 2 / span 2;
+  }
+
+  /* -------------------------book-------------------------------- */
+  #book > .container > .row {
+    display: grid !important;
+  }
+
+  #book .row {
+    display: grid !important;
+  }
+
+  #book .col {
+    width: 100%; 
+  }
+
+  #book .m-4 {
+    margin: 10px 0 !important;
+  }
+
+  #book .m-2 {
+    margin: 14px 0 !important;
+  }
+
+  .bookContent h3 {
+    font-size: 26px;
+  }
+
+  .bookContent h2 {
+    font-size: 44px;
+    letter-spacing: 4px;
+  }
+
+  .bookImg {
+    border-radius: 10px;
+  }
+
+  .btnbook {
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 10px 18px;
+    transition: 0.3s;
+  }
+
+  .form-group label {
+    font-size: 12px;
+  }
+
+  /* -----------------------news------------------------------------ */
+  #news .row{
+    display: grid !important;
+  }
+
+  #news .row .col p {
+    margin: 7px 0;
+  }
+
+  #news h5 {
+    font-size: 30px;
+  }
+
+  #news h2 {
+    letter-spacing: 8px;
+    font-size: 50px;
+    margin-bottom: 18px;
+  }
+  
+  #news .row > .col > .link {
+    margin-top: 12px;
+    font-size: 22px;
+    letter-spacing: 5px;
+  }
+  
+  #news .row .col p {
+    margin-top: 6px;
+    font-size: 15px;
+  }
+  
+  #news .row .col .right {
+    text-align: left;
+  } 
+  
+  /* --------------------FooterBanner------------------------- */
+  #FooterBanner .container > .row > .col:nth-child(1), 
+  #FooterBanner .container > .row > .col:nth-child(2) {
+    flex: 0 0 50%; /* كل عمود يأخذ 50% من العرض */
+    max-width: 50%; /* ضمان أن العرض الأقصى لا يتجاوز 50% */
+  }
+
+  #FooterBanner .container > .row > .col:nth-child(3) {
+    flex: 0 0 50%; /* العمود الثالث يأخذ العرض الكامل */
+    max-width: 50%; /* ضمان أن العرض الأقصى لا يتجاوز 100% */
+  }
+  
+  #FooterBanner .row .col div h5 {
+    margin: 18px 0;
+    font-size: 14px;
+  }
+
+  #FooterBanner .row .col div p {
+    font-size: 8px; 
+  }
+
+  #FooterBanner .row .col > h5 {
+    margin: 18px 0;
+    font-size: 14px;
+  }
+
+  #FooterBanner .row .col > a {
+    font-size: 8px;
+  }
+
+  #FooterBanner .row .col > p {
+    font-size: 8px;
+  }
+
+  #FooterBanner .row .col > span {
+    font-size: 8px;
+    margin: 2.4em 0;
+  }
+
+  #FooterBanner .secondcontent {
+    top: 4.2em !important;
+  }
+
+}
+
+/* --------------------------600px----------------------------- */
+@media screen and (max-width: 600px) {
+
+  #nav > .container .container-fluid > a {
+    width: 70px;
+    height: 44px;
+  }
+
+  .navLinks div a {
+    margin: 0 4px;
+    font-size: 10px;
+  }
+
+  .navIcons a {
+    margin: 0 8px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .offcanvas {
+    width: 260px !important;
+  }
+
+  .container .nav-link {
+    font-size: 10px;
+  }
+
+  .sidenavbtn button {
+    font-size: 8px;
+  }
+
+  .GallaryBanner h5 {
+    letter-spacing: 3px;
+    font-size: 10px;
+  }
+
+  /* ---------------------------banner--------------------------------- */
+  #banner .caption p {
+    font-size: 30px;
+  }
+
+  #banner .caption h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  #banner .caption button {
+    font-size: 8px;
+    padding: 7px 10px;
+    border-radius: 5px;
+  }
+
+  /* --------------------FooterBanner------------------------- */
+  #FooterBanner .container > .row > .col:nth-child(1), 
+  #FooterBanner .container > .row > .col:nth-child(2) {
+    flex: 0 0 100%; /* كل عمود يأخذ 50% من العرض */
+    max-width: 100%; /* ضمان أن العرض الأقصى لا يتجاوز 50% */
+  }
+
+  #FooterBanner .container > .row > .col:nth-child(3) {
+    flex: 0 0 70%; /* العمود الثالث يأخذ العرض الكامل */
+    max-width: 70%; /* ضمان أن العرض الأقصى لا يتجاوز 100% */
+  }
+
+  #FooterBanner .container > .row > .col:nth-child(2) {
+    margin: 100px 0 0 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* -------------------------footer--------------------------- */
+  #footer {
+    padding: 20px 0;
+    background-color: black;
+  }
+
+  #footer p {
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  #footer p a {
+    font-size: 10px;
+  }
+  
+  #footer p span img {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .FooterIcons {
+    margin-right: 20px;
+  }
+  
+  .FooterIcons a {
+    margin: 0 8px;
+    width: 10px;
+    height: 10px;
+  }
+
+}
+/* --------------------------576px----------------------------- */
+@media only screen and (max-width: 576px) {
+
+  #nav > .container .container-fluid > a {
+    width: 60px;
+    height: 44px;
+  }
+
+  .navLinks div a {
+    margin: 0 3px;
+    font-size: 8px;
+  }
+
+  .navIcons a {
+    margin: 0 6px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .offcanvas {
+    width: 260px !important;
+  }
+
+  .container .nav-link {
+    font-size: 10px;
+  }
+
+  .sidenavbtn button {
+    font-size: 10px;
+  }
+
+  .GallaryBanner h5 {
+    letter-spacing: 3px;
+    font-size: 10px;
+  }
+      
+  /* ---------------------------welcom------------------------------------ */
+  .welcomContent {
+    position: relative;
+    top: 5%;
+  }
+
+  .welcomContent h3 {
+    font-size: 20px;
+  }
+
+  .welcomContent h2 {
+    font-size: 36px;
+    letter-spacing: 3px;
+  }
+
+  .welcomContent p {
+    padding: 0;
+    margin: 9px 0;
+  }
+
+  .LinkStory a {
+    font-size: 8px;
+  }
+
+  .LinkStory a span {
+    margin-left: 16px;
+    width: 6px;
+    height: 6px;
+  }
+
+  /* ------------------------intro--------------------- */
+  #intro {
+    padding: 80px 0;
+  }
+
+  #intro p {
+    font-size: 20px;
+  }
+
+  #intro h2 {
+    font-size: 36px;
+  }
+
+  /* ----------------------information--------------------------- */
+  #information > .container > .row{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-rows: repeat(1,1fr) !important;
+  }
+
+  /* --------------our menu----------------- */
+  #OurMenu{
+    padding-top: 0;
+  }
+
+  .menuphot {
+      margin: 30px auto;
+      display: grid;
+      gap: 20px;
+      width: 95%;
+      aspect-ratio: 0.3;
+  }
+
+  .p01 {
+      grid-area: 1 / 1 / span 3 / span 1;
+  }
+
+  .p02 {
+      grid-area: 4 / 1 / span 3 / span 1;
+  }
+
+  .p03 {
+      grid-area: 7 / 1 / span 1 / span 1;
+  }
+    
+  .p04 {
+      grid-area: 8 / 1 / span 2 / span 1;
+  }
+
+  .p05 {
+      grid-area: 10 / 1 / span 2 / span 1;
+  }
+
+  .p06 {
+      grid-area: 12 / 1 / span 2 / span 1;
+  }
+
+  /* --------------------FooterBanner------------------------- */
+  #FooterBanner > .container > .row{
+    display: block;  
+  }
+
+  #FooterBanner .container > .row > .col:nth-child(2) {
+    margin:0 ;
+  }
+
+  #FooterBanner .secondcontent {
+    top: 0em !important;
+  }
+
+  #FooterBanner .GallaryFooter {
+    margin: 2px;
+  }
+  
+}
